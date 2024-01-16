@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+      background: #ccaa66;
+      font-family: 'Arial',sans-serif;
+      color: #FFFF;
+      font-size: 26px;
+      text-align: center;
+}
+.container{
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.gameBox{
+    height: 62vmin;
+    width: 62vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+    background-color: #996633;
+    border: 10px solid #553311;
+    
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius:1rem;
+    border: none;
+    background: #ccaa66;
+    /* border: 3px solid #996633; */
+    border: 1.25px solid #ccaa66;
+    color: #000;
+    font-size:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.reset-btn {
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #FFFF;
+    cursor: pointer;
+    color: #332211;
+    font-weight:700;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0)
+
+}
+#new-btn{
+    
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #FFFF;
+    cursor: pointer;
+    color: #332211;
+    font-weight:700;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0)
+     
+}
+.hide{
+    display: none;
+}
+.box.clicked {
+    background-color: #553311;/* Your desired color for clicked boxes */;
+    color: #FFFF 
+    /* Your desired text color for clicked boxes */;
+}
+h1{
+    transition: all .4s ease-in-out;
+}
+p{
+    font-size: 41px;
+    color: #FFFF 
+}
